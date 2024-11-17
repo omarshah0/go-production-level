@@ -70,7 +70,7 @@ definitions:
       field:
         type: string
     type: object
-host: gohpher.up.railway.app
+host: gopher.up.railway.app
 info:
   contact:
     email: support@example.com
