@@ -1,0 +1,13 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+startCommand = "./api"
+healthcheckPath = ""
+healthcheckInitialDelay = 0
+healthcheckTimeout = 0
+restartPolicyType = "on_failure"
+
+[deploy.envs]
+PORT = "8080"

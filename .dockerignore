@@ -1,0 +1,8 @@
+.git
+.gitignore
+.env
+README.md
+tests/
+bin/
+node_modules/
+*.log
