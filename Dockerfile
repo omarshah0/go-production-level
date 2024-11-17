@@ -34,6 +34,9 @@ COPY --from=builder /app/bin/api .
 # Install Node.js and npm for Prisma
 #RUN apk add --no-cache nodejs npm
 
+# Copy the swagger documentation
+COPY --from=builder /app/docs ./docs
+
 # Install Prisma CLI
 #RUN npm install -g prisma
 
